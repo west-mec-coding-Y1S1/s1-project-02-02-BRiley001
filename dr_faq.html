@@ -13,6 +13,7 @@
 
     Filename: dr_faq.html
    -->
+    <!-- the meta data contains what is on the page, links to the stylesheets, and what character set to use -->
     <meta charset="utf-8">
     <meta name="keywords" content="breast cancer, run, charity" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,6 +25,7 @@
 
 <body>
     <header>
+        <!-- the nav list has links to the other pages -->
         <nav>
             <ul>
                 <li>
@@ -39,10 +41,12 @@
         </nav>
     </header>
     <section>
+        <!-- this is just text below an image -->
         <header id="pagetop">
             <img src="dr_logo.png" alt="Diane's Run">
             <h1> Frequently Asked Questions</h1>
         </header>
+        <!-- this list has the faqs, which are set as links to the full questions below. the # tag in the id says that it links to the same page-->
         <ol>
             <li>
                 <a href="#faq1">How do I sign up?</a>
@@ -83,6 +87,7 @@
             <li>
                 <a href="#faq13">I am looking for accommodation for the event, where is best to stay?</a>
             </li>
+            <!-- the above links send you to the corresonding question and answer. this part only needs to have id=faq, with no number, because they don't link anywhere, the actual text is a paragraph below an h2 tag, which seperates and makes it looks different from the rest of the text. -->
         </ol>
         <h2 id="faq1">How do I sign up?</h2>
         <p>Go to our online form where you can enter your registration information. Remember that the registration desk is closed
@@ -131,6 +136,7 @@
             <a href="#pagetop">Return to the top</a>
         </p>
     </section>
+    <!-- the address bar has special characters, denoted by the "&", followed by a # meaning it is a number, and the number code -->
     <footer>
         Diane's Run &#9829; 45 Mountain Drive &#9829; Cheyene, WY 82001
     </footer>
